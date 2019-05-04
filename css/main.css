@@ -1,4 +1,7 @@
+.navbar{
+    height: 60px !important;
+}
 .navbar-brand img{
-    height: 30px;
-    width: auto;
+    height: 40px;
+    margin: auto 0;
 }
