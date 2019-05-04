@@ -3,7 +3,6 @@
     padding: 0;
 }
 body{
-    overflow: hidden;
 }
 .navbar{
     background-color: transparent !important;
@@ -12,6 +11,7 @@ body{
     margin-top: 23px;
     border: 1px solid transparent;
     border-radius: 0;
+    opacity: 0.4;
 }
 .navbar-brand img{
     display: block;
@@ -44,10 +44,10 @@ body{
 	align-items: center;
 }
 .contents{
-    margin-top: 15%;
+    margin-top: 10%;
 }
 .site-content img{
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 .site-title{
     padding-bottom: 25px;
@@ -57,18 +57,22 @@ body{
 }
 .site-description{
     font-size: 14px;
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.line-two{
+    padding-bottom: 0;
 }
 .mouse{
     position: absolute;
     bottom: 0;
 }
 @media screen and (max-width: 601px) {
-    .site-content img{
-        padding-bottom: 10px;
-    }
     .site-title{
-        padding-bottom: 12px;
+        padding-bottom: 15px;
+    }
+    .line-two{
+        padding-bottom: 5px;
     }
     
     .site-description{
@@ -76,5 +80,34 @@ body{
     }
     #hero h1{
         font-size: 28px;
+    }
+}
+/*--- About Styling --*/
+#about{
+    height: auto;
+    margin: 60px 60px;
+    text-align: center;
+}
+#about h1{
+    font-size: 30px;
+}
+#about h1::after{
+    content: '';
+    background: #000;
+    display: block;
+    height: 2px;
+    width: 15%;
+    margin: 20px auto 30px;
+}
+@media screen and (max-width: 601px) {
+    #about{
+        margin: 40px 20px;
+    }
+    #about h1::after{
+        width: 35%;
+    }
+    #about p{
+        font-size: 16px;
+        margin: 20px 20px;
     }
 }
