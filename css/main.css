@@ -1,7 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
 .navbar{
-    height: 60px !important;
+    background-color: transparent !important;
+    min-height: 50px !important;
+    margin-bottom: 20px;
+    margin-top: 23px;
+    border: 1px solid transparent;
+    border-radius: 0;
 }
 .navbar-brand img{
+    display: block;
     height: 40px;
     margin: auto 0;
+}
+.nav li{
+    position: relative;
+    display: block;
+}
+
+#hero{
+    height: 100vh;
+    position: cover;
+    background: url(../images/backgrounds/h_img.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.site-content{
+    position: relative;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contents{
+    margin-top: 15%;
+}
+.site-content img{
+    padding-bottom: 20px;
+}
+.site-title{
+    padding-bottom: 25px;
+}
+#hero h1{
+    font-size: 50px;
+}
+.site-description{
+    font-size: 14px;
+    padding: 25px;
+}
+.mouse{
+    position: absolute;
+    bottom: 0;
+}
+@media screen and (max-width: 601px) {
+    .site-content img{
+        padding-bottom: 10px;
+    }
+    .site-title{
+        padding-bottom: 12px;
+    }
+    
+    .site-description{
+        font-size: 14px;
+    }
+    #hero h1{
+        font-size: 28px;
+    }
 }
