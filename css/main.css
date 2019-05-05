@@ -191,7 +191,25 @@ body{
     height: 140px;
     padding: 30px;
 }
-
+/*-- Hover Effect --*/
+#what-we-do .icon:hover .details{
+    height: 140px;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px; 
+}
+#what-we-do .icon:hover .details h6{
+    height: 140px;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px; 
+}
+#what-we-do .icon:hover .details p{
+    height: 140px;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px; 
+}
 /*--- PORTFOLIO STYLING --*/
 #portfolio{
     padding-top: 50px;    
@@ -210,7 +228,6 @@ body{
     width: 15%;
     margin: 15px auto 25px;
 }
-
 #portfolio .container{
     position: relative;
     width: 85%;
@@ -228,7 +245,35 @@ body{
     margin: 0 auto;
     width: 95%;
     height: 90%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    transition: 1.5s ease-in-out;
+    opacity: 1;
 }
+#portfolio .description{
+    width: 100%;
+    text-align: center;
+    padding:5px 5px;
+    color: #222;
+    background: rgba(255, 255, 255, 0.9);
+    font-size:0.50em;
+    font-weight: 600;
+    position: absolute;
+    bottom:0;
+    left:0;
+    -webkit-animation-name: Slide;
+    -webkit-animation-duration: 2s;
+    animation-name: Slide;
+    animation-duration: 1.5s;
+}
+@keyframes Slide {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+.icon .hide{
+    display: none;
+}
+
 .work1{
     background: url(../images/portfolio/work4.jpg) no-repeat center center;
     -webkit-background-size: cover;
@@ -297,6 +342,7 @@ body{
         width: 100%;
     }
 }
+/*-- CONTACT STYLING --*/
 #contact{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/backgrounds/c_image.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -341,20 +387,17 @@ body{
 .footer{
     text-align: center;
 }
-
-.footer .footer-company-about{
+.footer .company{
 	display: block;
 	color:  #222;
 	margin-bottom: 20px;
 }
-.footer .footer-company-about span{
+.footer .company{
 	font-weight: 600;
 }
-
 .footer .footer-icons{
-    margin: 35px auto;
+    margin: 35px;
 }
-
 .footer .footer-icons a{
 	display: inline-block;
 	width: 50px;
@@ -366,12 +409,11 @@ body{
 	text-align: center;
 	line-height: 35px;
 	margin-right: 25px;
-	margin-bottom: 45px;
+	margin-bottom: 20px;
 }
 .footer .footer-icons i{
     margin-top: 11px;
 }
-
 .twitter{
     background-color: skyblue;
 }
