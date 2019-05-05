@@ -86,8 +86,11 @@ body{
 /*--- ABOUT STYLING --*/
 #about{
     height: auto;
-    margin: 60px 60px;
+    margin: 10px auto 65px;
     text-align: center;
+}
+#about .container{
+    padding-top: 30px;    
 }
 #about h1{
     font-size: 30px;
@@ -125,7 +128,7 @@ body{
     color: #ffffff;
 }
 #services .container{
-    padding-top: 60px;    
+    padding-top: 80px;    
 }
 #services h1{
     font-size: 30px;
@@ -140,7 +143,7 @@ body{
     margin: 15px auto 30px;
 }
 #services p{
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     padding-bottom: 90px;
 }
@@ -161,8 +164,12 @@ body{
 /*--- WHAT WE DO STYLING --*/
 #what-we-do{
     padding-top: 50px;    
-    padding-bottom: 80px;    
+    padding-bottom: 30px;    
     text-align: center;
+    height: auto;
+}
+#what-we-do h1{
+    font-size: 30px;
 }
 #what-we-do h1::after{
     content: '';
@@ -182,12 +189,114 @@ body{
 }
 #what-we-do .container{
     position: relative;
-    height: 300px;
 }
 .icon{
     height: 140px;
     padding: 30px;
 }
-.doings:hover{
 
+/*--- PORTFOLIO STYLING --*/
+#portfolio{
+    padding-top: 50px;    
+    padding-bottom: 30px;    
+    text-align: center;
+    font-size: 30px;
+}
+#portfolio h1{
+    font-size: 30px;
+}
+#portfolio h1::after{
+    content: '';
+    background: #222;
+    display: block;
+    height: 2px;
+    width: 15%;
+    margin: 15px auto 25px;
+}
+
+#portfolio .container{
+    position: relative;
+    width: 85%;
+}
+#portfolio .row{
+    padding-bottom: 40px;
+    display: flex;
+}
+#portfolio .doings{
+    height: 180px;
+    width: 220px;
+    margin: 0 auto;
+}
+#portfolio .icon{
+    margin: 0 auto;
+    width: 95%;
+    height: 90%;
+}
+.work1{
+    background: url(../images/portfolio/work4.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.work2{
+    background: url(../images/portfolio/work3.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.work3{
+    background: url(../images/portfolio/work2.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.work4{
+    background: url(../images/portfolio/work1.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.work5{
+    background: url(../images/portfolio/work5.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.work6{
+    background: url(../images/portfolio/work6.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.work7{
+    background: url(../images/portfolio/work7.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.work8{
+    background: url(../images/portfolio/work8.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@media screen and (max-width: 501px) {
+    #portfolio h1::after{
+        margin: 15px auto 20px;
+    }
+    #portfolio h1::after{
+        width: 35%;
+    }
+    #portfolio .icon{
+        margin: 0 auto;
+        width: 100%;
+    }
 }
