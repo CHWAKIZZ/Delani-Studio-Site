@@ -300,3 +300,37 @@ body{
         width: 100%;
     }
 }
+#contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/backgrounds/c_image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 50px;    
+    padding-bottom: 30px;    
+    font-size: 30px;
+    color: #c8c8c8;
+    
+}
+#contact h1{
+    font-size: 30px;
+    text-align: center;
+
+}
+#contact h1::after{
+    content: '';
+    background: #ddd;
+    display: block;
+    height: 2px;
+    width: 15%;
+    margin: 15px auto 10px;
+}
+.form-control{
+    background-color: transparent;
+    border-color: #ddd;
+}
+.form-control:focus{
+    background-color: transparent !important;
+    color: #fff;
+    border-color: #ffffff;
+}
