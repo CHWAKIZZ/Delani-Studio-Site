@@ -1,10 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    font-family: Open Sans;
 }
 .navbar{
     background-color: transparent !important;
@@ -27,7 +27,6 @@ body{
 /*-- LANDING PAGE STYLING --*/
 #hero{
     height: 100vh;
-    position: cover;
     background: url(../images/backgrounds/h_img.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -182,8 +181,6 @@ body{
 @media screen and (max-width: 601px) {
     #what-we-do  h1::after{
         margin: 15px auto 20px;
-    }
-    #what-we-do h1::after{
         width: 35%;
     }
 }
@@ -334,3 +331,72 @@ body{
     color: #fff;
     border-color: #ffffff;
 }
+@media screen and (max-width: 601px) {
+    #contact  h1::after{
+        margin: 15px auto 20px;
+        width: 35%;
+    }
+}
+/*-- FOOTER STYLING --*/
+.footer{
+    text-align: center;
+}
+
+.footer .footer-company-about{
+	display: block;
+	color:  #222;
+	margin-bottom: 20px;
+}
+.footer .footer-company-about span{
+	font-weight: 600;
+}
+
+.footer .footer-icons{
+    margin: 35px auto;
+}
+
+.footer .footer-icons a{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	border-radius: 50%;
+	font-size: 25px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 25px;
+	margin-bottom: 45px;
+}
+.footer .footer-icons i{
+    margin-top: 11px;
+}
+
+.twitter{
+    background-color: skyblue;
+}
+.dribbble{
+    background-color: pink;
+}
+.facebook{
+    background-color: rgb(5, 125, 172);
+}
+.google{
+    background-color: red;
+}
+.skype{
+    background-color: rgb(33, 146, 190);
+}
+.linkedin{
+    background-color: rgb(0, 106, 148);
+}
+.behance{
+    background-color: rgb(33, 146, 190);
+}
+.pinterest{
+    background-color: red;
+}
+.flickr{
+    background-color: skyblue;
+}
+
