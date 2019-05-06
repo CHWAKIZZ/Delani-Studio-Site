@@ -39,6 +39,7 @@ $(document).ready(function() {
     }
     event.preventDefault();
   });
+  //Scroll to 'About Section' feature on mouse click
   $(function() {
     $('a[href*=#]').on('click', function(e) {
       e.preventDefault();

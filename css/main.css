@@ -312,7 +312,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
 .work6 {
   background: url(../images/portfolio/work6.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -424,7 +423,6 @@ form .btn:hover {
 .footer .company {
   font-weight: 600;
 }
-
 .footer .footer-icons {
   margin: 35px;
 }
