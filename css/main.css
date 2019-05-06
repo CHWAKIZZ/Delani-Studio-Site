@@ -9,42 +9,7 @@ body {
   font-family: Open Sans;
 }
 
-/*-- NAVBAR STYLING --*/
-.navbar {
-  background-color: transparent !important;
-  min-height: 50px !important;
-  margin-bottom: 20px;
-  margin-top: 23px;
-  border: 1px solid transparent;
-  border-radius: 0;
-  opacity: 0.4;
-}
 
-.navbar-brand img {
-  display: block;
-  height: 40px;
-  margin: auto 0;
-}
-
-.nav li {
-  position: relative;
-  display: block;
-}
-/* Solid class attached on scroll past first section */
-.navbar.solid {
-    background-color: #222 !important;
-    transition: background-color 0.5s ease 0s;
-    box-shadow: 0 0 3px #000;
-    opacity: 1;
-    margin-top: 0px;
-  }
-  .navbar.solid .navbar-brand {
-    transition: color 1s ease 0s;
-  }
-  .navbar.solid .navbar-nav > li > a {
-    color: #ccc;
-    transition: color 1s ease 0s;
-  }
 /*-- LANDING PAGE STYLING --*/
 #hero {
   height: 100vh;
