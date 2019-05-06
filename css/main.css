@@ -493,7 +493,23 @@ body {
     width: 35%;
   }
 }
-
+.message{
+    margin: 10px 10px;
+    width: 500px;
+    max-width: 65%;
+    background-color: green;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.success{
+    background: rgb(23, 167, 23);
+    color: #fff;
+}
+.failed{
+    background: red;
+    color: #fff;
+}
 /*-- FOOTER STYLING --*/
 .footer {
   text-align: center;
