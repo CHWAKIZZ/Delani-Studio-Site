@@ -1,13 +1,4 @@
 $(document).ready(function() {
-  // Transition effect for navbar
-  $(window).scroll(function() {
-    // checks if window is scrolled more than 500px, adds/removes solid class
-    if ($(this).scrollTop() > 600) {
-      $('.navbar').addClass('solid');
-    } else {
-      $('.navbar').removeClass('solid');
-    }
-  });
   //Portfolio label on hover effect
   $('#portfolio span').addClass("hide");
   $('#portfolio .doings').hover(function() {
@@ -20,29 +11,17 @@ $(document).ready(function() {
     $(this).find('.doings').removeClass('imageEffect');
   });
   //What we do description toggle
-  $(".illustration1").click(function() {
+  $(".first").click(function() {
     $(".illustration1").toggle(500);
     $(".details1").toggle(500);
   });
-  $(".details1").click(function() {
-    $(".details1").toggle(500);
-    $(".illustration1").toggle(500);
-  });
-  $(".illustration2").click(function() {
+  $(".second").click(function() {
     $(".illustration2").toggle(500);
     $(".details2").toggle(500);
   });
-  $(".details2").click(function() {
-    $(".details2").toggle(500);
-    $(".illustration2").toggle(500);
-  });
-  $(".illustration3").click(function() {
+  $(".third").click(function() {
     $(".illustration3").toggle(500);
     $(".details3").toggle(500);
-  });
-  $(".details3").click(function() {
-    $(".details3").toggle(500);
-    $(".illustration3").toggle(500);
   });
   //Submission Form
   $('#submit').submit(function(event) {
