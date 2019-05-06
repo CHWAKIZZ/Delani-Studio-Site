@@ -1,15 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
-
 * {
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: Open Sans;
 }
-
-
 /*-- LANDING PAGE STYLING --*/
 #hero {
   height: 100vh;
@@ -21,7 +17,6 @@ body {
   text-align: center;
   color: #ffffff;
 }
-
 .site-content {
   position: relative;
   height: 100vh;
@@ -30,51 +25,40 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .contents {
   margin-top: 10%;
 }
-
 .site-content img {
   padding-bottom: 25px;
 }
-
 .site-title {
   padding-bottom: 25px;
 }
-
 #hero h1 {
   font-size: 50px;
 }
-
 .site-description {
   font-size: 14px;
   padding-left: 25px;
   padding-right: 25px;
 }
-
 .line-two {
   padding-bottom: 0;
 }
-
 .mouse {
   position: absolute;
   bottom: 0;
 }
-
 @media screen and (max-width: 601px) {
   .site-title {
     padding-bottom: 15px;
   }
-
   .line-two {
     padding-bottom: 5px;
   }
-
   .site-description {
     font-size: 14px;
   }
-
   #hero h1 {
     font-size: 28px;
   }
@@ -85,15 +69,12 @@ body {
   margin: 10px auto 65px;
   text-align: center;
 }
-
 #about .container {
   padding-top: 30px;
 }
-
 #about h1 {
   font-size: 30px;
 }
-
 #about h1::after {
   content: '';
   background: #222;
@@ -102,16 +83,13 @@ body {
   width: 10%;
   margin: 20px auto 30px;
 }
-
 @media screen and (max-width: 601px) {
   #about {
     margin: 40px 20px;
   }
-
   #about h1::after {
     width: 35%;
   }
-
   #about p {
     font-size: 16px;
     margin: 20px 20px;
@@ -129,16 +107,13 @@ body {
   text-align: center;
   color: #ffffff;
 }
-
 #services .container {
   padding-top: 80px;
 }
-
 #services h1 {
   font-size: 30px;
   font-weight: 400;
 }
-
 #services h1::after {
   content: '';
   background: #fff;
@@ -147,22 +122,18 @@ body {
   width: 10%;
   margin: 15px auto 30px;
 }
-
 #services p {
   font-size: 17px;
   font-weight: 400;
   padding-bottom: 90px;
 }
-
 @media screen and (max-width: 601px) {
   #services .container {
     padding-top: 50px;
   }
-
   #services h1::after {
     width: 35%;
   }
-
   #services p {
     font-size: 16px;
     margin: 20px 20px;
@@ -176,11 +147,9 @@ body {
   text-align: center;
   height: auto;
 }
-
 #what-we-do h1 {
   font-size: 30px;
 }
-
 #what-we-do h1::after {
   content: '';
   background: #222;
@@ -189,74 +158,58 @@ body {
   width: 15%;
   margin: 15px auto 45px;
 }
-
 #what-we-do .container {
   position: relative;
 }
-
 #what-we-do h6 {
   font-weight: 600;
 }
-
 #what-we-do p {
   font-size: 14px;
 }
-
 #what-we-do .doings {
   height: 180px;
 }
-
 #what-we-do .icon {
   height: 130px;
 }
-
 #what-we-do .details1 {
   display: none;
 }
-
 #what-we-do .illustration1 {
   display: show;
 }
-
 #what-we-do .details1 {
   display: none;
 }
-
 #what-we-do .illustration2 {
   display: show;
 }
-
 #what-we-do .details2 {
   display: none;
 }
-
 #what-we-do .illustration3 {
   display: show;
 }
-
 #what-we-do .details3 {
   display: none;
 }
-
 #what-we-do .icon:hover .doings p {
   text-align: center;
   font-size: 14px;
 }
-
 @media screen and (max-width: 601px) {
   #what-we-do h1::after {
     margin: 15px auto 20px;
     width: 35%;
   }
 }
-
 @media screen and (max-width: 1000px) {
   #what-we-do .doings {
     height: auto;
     cursor: pointer;
   }
 }
-
 /*--- PORTFOLIO STYLING --*/
 #portfolio {
   padding-top: 50px;
@@ -264,11 +217,9 @@ body {
   text-align: center;
   font-size: 30px;
 }
-
 #portfolio h1 {
   font-size: 30px;
 }
-
 #portfolio h1::after {
   content: '';
   background: #222;
@@ -277,23 +228,19 @@ body {
   width: 15%;
   margin: 15px auto 25px;
 }
-
 #portfolio .container {
   position: relative;
   width: 85%;
 }
-
 #portfolio .row {
   padding-bottom: 40px;
   display: flex;
 }
-
 #portfolio .doings {
   height: 180px;
   width: 220px;
   margin: 0 auto;
 }
-
 #portfolio .icon {
   margin: 0 auto;
   width: 95%;
@@ -303,7 +250,6 @@ body {
   transition: 1.5s ease-in-out;
   opacity: 1;
 }
-
 #portfolio .description {
   width: 100%;
   text-align: center;
@@ -320,21 +266,17 @@ body {
   animation-name: Slide;
   animation-duration: 1.5s;
 }
-
 @keyframes Slide {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
 }
-
 .icon .hide {
   display: none;
 }
-
 .work1 {
   background: url(../images/portfolio/work4.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -342,7 +284,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
 .work2 {
   background: url(../images/portfolio/work3.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -350,7 +291,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
 .work3 {
   background: url(../images/portfolio/work2.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -358,7 +298,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
 .work4 {
   background: url(../images/portfolio/work1.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -366,7 +305,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
 .work5 {
   background: url(../images/portfolio/work5.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -382,7 +320,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
 .work7 {
   background: url(../images/portfolio/work7.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -390,7 +327,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
 .work8 {
   background: url(../images/portfolio/work8.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -398,22 +334,18 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
 @media screen and (max-width: 501px) {
   #portfolio h1::after {
     margin: 15px auto 20px;
   }
-
   #portfolio h1::after {
     width: 35%;
   }
-
   #portfolio .icon {
     margin: 0 auto;
     width: 100%;
   }
 }
-
 /*-- CONTACT STYLING --*/
 #contact {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/backgrounds/c_image.jpg) no-repeat center center fixed;
@@ -426,12 +358,10 @@ body {
   font-size: 30px;
   color: #c8c8c8;
 }
-
 #contact h1 {
   font-size: 30px;
   text-align: center;
 }
-
 #contact h1::after {
   content: '';
   background: #ddd;
@@ -440,52 +370,57 @@ body {
   width: 15%;
   margin: 15px auto 10px;
 }
-
 .form-control {
   background-color: transparent;
   border-color: #ddd;
 }
-
 .form-control:focus {
   background-color: transparent !important;
   color: #fff;
   border-color: #ffffff;
 }
-
+form .btn {
+  background: #111;
+  font-weight: 400;
+  outline: none;
+}
+form .btn:hover {
+  background: #000;
+  font-weight: 300;
+  border-radius: 10px;
+}
 @media screen and (max-width: 601px) {
   #contact h1::after {
     margin: 15px auto 20px;
     width: 35%;
   }
 }
-.message{
-    margin: 10px 10px;
-    width: 500px;
-    max-width: 65%;
-    background-color: green;
-    color: #fff;
-    border-radius: 4px;
-    font-size: 14px;
+.message {
+  margin: 10px 10px;
+  width: 500px;
+  max-width: 65%;
+  background-color: green;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
 }
-.success{
-    background: rgb(23, 167, 23);
-    color: #fff;
+.success {
+  background: rgb(23, 167, 23);
+  color: #fff;
 }
-.failed{
-    background: red;
-    color: #fff;
+.failed {
+  background: red;
+  color: #fff;
 }
 /*-- FOOTER STYLING --*/
 .footer {
   text-align: center;
 }
-
 .footer .company {
   display: block;
   color: #222;
   margin-bottom: 20px;
 }
-
 .footer .company {
   font-weight: 600;
 }
@@ -493,7 +428,6 @@ body {
 .footer .footer-icons {
   margin: 35px;
 }
-
 .footer .footer-icons a {
   display: inline-block;
   width: 50px;
@@ -507,43 +441,33 @@ body {
   margin-right: 25px;
   margin-bottom: 20px;
 }
-
 .footer .footer-icons i {
   margin-top: 11px;
 }
-
 .twitter {
   background-color: skyblue;
 }
-
 .dribbble {
   background-color: pink;
 }
-
 .facebook {
   background-color: rgb(5, 125, 172);
 }
-
 .google {
   background-color: red;
 }
-
 .skype {
   background-color: rgb(33, 146, 190);
 }
-
 .linkedin {
   background-color: rgb(0, 106, 148);
 }
-
 .behance {
   background-color: rgb(33, 146, 190);
 }
-
 .pinterest {
   background-color: red;
 }
-
 .flickr {
   background-color: skyblue;
 }
